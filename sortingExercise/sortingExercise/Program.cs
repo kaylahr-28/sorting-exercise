@@ -61,8 +61,9 @@
                 {
                     if (a[j] > a[j + 1])
                     {
-                        //indicates a[j] has been changed
                         isAnyChange = true;
+
+                        //swap to put items in order
                         (a[j], a[j + 1]) = (a[j + 1], a[j]);
                     }
                 }
